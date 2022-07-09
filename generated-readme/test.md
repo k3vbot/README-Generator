@@ -6,7 +6,7 @@
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribution](#contirbution)
+  - [Contributions](#contirbutions)
   - [Tests](#tests)
   - [Questions](#questions)
   - [License](#license)
@@ -14,10 +14,10 @@
   ## Installation
   test
 
-  ## Use Case
+  ## Usage
   test
 
-  ## Contribution
+  ## Contributions
   test
 
   ## Tests
