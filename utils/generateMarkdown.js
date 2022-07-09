@@ -19,7 +19,7 @@ function renderLicenseLink(license) {
   if (license !== 'none') {
     return `- [License](#license)`
   }
-  return '';
+  return ' ';
 }
 
 // TODO: Create a function that returns the license section of README
@@ -27,10 +27,10 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'none') {
     return `## License
-    ${rederLicenseBadge(license)}
+    ${renderLicenseBadge(license)}
     This project is license with ${license}`
   }
-  return '';
+  return ' ';
 }
 
 // TODO: Create a function to generate markdown for README
@@ -63,6 +63,8 @@ function generateMarkdown(data) {
   ## Questions
   Contact - ${data.contact}
   Github username- ${data.username}
+
+  ${renderLicenseSection(data.license)}
 `;
 }
 
