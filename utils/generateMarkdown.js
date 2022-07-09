@@ -28,7 +28,7 @@ function renderLicenseSection(license) {
   if (license !== 'none') {
     return `## License
     ${renderLicenseBadge(license)}
-    This project is license with ${license}`
+    This project is licensed with ${license}`
   }
   return ' ';
 }
