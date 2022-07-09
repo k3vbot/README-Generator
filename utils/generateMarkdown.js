@@ -41,11 +41,11 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  - [installation](#installation)
-  - [usage](#usage)
-  - [contribution](#contirbution)
-  - [tests](#tests)
-  - [questions](#questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contirbution)
+  - [Tests](#tests)
+  - [Questions](#questions)
   ${renderLicenseLink(data.license)}
 
   ## Installation
@@ -61,8 +61,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Email - ${data.contact}
-  Github - ${data.username}
+  Contact - ${data.contact}
+  Github username- ${data.username}
 `;
 }
 
