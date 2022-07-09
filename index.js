@@ -47,16 +47,17 @@ const questions = [
     {
         type: 'list',
         message: "Choose a license for your project",
-        choices: ['MIT', 'Mozilla Public License', 'Apache License', 'Boost Software License'],
+        choices: ['MIT', 'Eclipse 1.0', 'Apache 2.0', 'Perl', 'none'],
         name: 'license'
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(`./generated-readme/${fileName}.md`, data, err => {
+function writeToFile(fileName, markdown) {
+    fs.writeFile(`./generated-readme/${fileName}.md`, markdown, err => {
         if (err) {
-            return console.log(err);
+            console.log(err);
+            return;
         }
 
         console.log("Your README.md file has been generated");
