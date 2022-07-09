@@ -3,6 +3,9 @@
 ## Project Description
 Make a README generator using the terminal. 
 
+## Link to repo
+https://github.com/k3vbot/README-Generator
+
 ## User Story
 AS A developer
 I WANT a README generator
